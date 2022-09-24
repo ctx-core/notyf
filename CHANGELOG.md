@@ -1,5 +1,11 @@
 # @menus/notyf
 
+## 1.0.1
+
+### Patch Changes
+
+- @ctx-core/fast-deep-equal: ^1.0.24 -> ^1.1.0
+
 ## 1.0.0
 
 ### Major Changes
