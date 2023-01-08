@@ -1,5 +1,15 @@
 # @menus/notyf
 
+## 1.0.22
+
+### Patch Changes
+
+- @ctx-core/object: ^23.0.1 -> ^23.1.0
+- Updated dependencies
+  - @ctx-core/array@26.8.10
+  - @ctx-core/dom@11.2.18
+  - @ctx-core/nanostores@2.2.13
+
 ## 1.0.21
 
 ### Patch Changes
