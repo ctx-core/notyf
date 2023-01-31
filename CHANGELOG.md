@@ -1,5 +1,18 @@
 # @menus/notyf
 
+## 1.0.30
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+- Updated dependencies
+  - @ctx-core/array@26.8.13
+  - @ctx-core/dom@11.2.25
+  - @ctx-core/fast-deep-equal@1.1.3
+  - @ctx-core/function@21.6.1
+  - @ctx-core/nanostores@2.2.17
+  - @ctx-core/object@24.1.1
+
 ## 1.0.29
 
 ### Patch Changes
