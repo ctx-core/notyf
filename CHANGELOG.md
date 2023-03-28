@@ -1,5 +1,11 @@
 # @menus/notyf
 
+## 1.0.119
+
+### Patch Changes
+
+- - node_modules
+
 ## 1.0.118
 
 ### Patch Changes

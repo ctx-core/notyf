@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/notyf",
-	"version": "1.0.118",
+	"version": "1.0.119",
 	"type": "module",
 	"main": "./src/index.js",
 	"module": "./src/index.js",
