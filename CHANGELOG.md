@@ -1,5 +1,11 @@
 # @menus/notyf
 
+## 1.0.128
+
+### Patch Changes
+
+- @ctx-core/dom: ^14.1.7 -> ^14.1.8
+
 ## 1.0.127
 
 ### Patch Changes
