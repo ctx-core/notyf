@@ -1,5 +1,11 @@
 # @menus/notyf
 
+## 1.0.206
+
+### Patch Changes
+
+- @ctx-core/nanostores: ^5.2.6 -> ^5.2.7
+
 ## 1.0.205
 
 ### Patch Changes
