@@ -1,13 +1,17 @@
 import { remove } from '@ctx-core/array'
 import { deep_equal } from '@ctx-core/fast-deep-equal'
 import { debounce } from '@ctx-core/function'
-import { refresh_atom_ } from '@ctx-core/nanostores'
-import { assign, be_, pick } from '@ctx-core/object'
+import { be_atom_triple_, refresh_atom_ } from '@ctx-core/nanostores'
+import { assign, pick } from '@ctx-core/object'
 import { DEFAULT_OPTIONS } from 'notyf'
 import { notyf } from '../notyf/index.js'
 import { notyf_config } from '../notyf_config/index.js'
 import { notyf_options_ } from '../notyf_options_/index.js'
-export const active_notyf_o_a__ = be_('active_notyf_o_a__', ()=>{
+export const [
+	active_notyf_o_a$_,
+	active_notyf_o_a_,
+	active_notyf_o_a__set,
+] = be_atom_triple_(()=>{
 	const active_notyf_o_a_ = refresh_atom_([])
 	return assign(active_notyf_o_a_, { notyf_message })
 	function notyf_message(in_payload_arg) {
@@ -51,3 +55,6 @@ export const active_notyf_o_a__ = be_('active_notyf_o_a__', ()=>{
 		return debounced_notyf_message()
 	}
 })
+export {
+	active_notyf_o_a$_ as active_notyf_o_a__,
+}

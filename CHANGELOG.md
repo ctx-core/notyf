@@ -1,5 +1,25 @@
 # @menus/notyf
 
+## 1.1.0
+
+### Minor Changes
+
+- exports:
+
+      + active_notyf_o_a$_: aliased by active_notyf_o_a__
+      + active_notyf_o_a_
+      + active_notyf_o_a__set
+      + notyf_banner_error_map$_: aliased by notyf_banner_error_map__
+      + notyf_banner_error_map_
+      + notyf_banner_error_map$_: aliased by notyf_banner_error_map__
+      + notyf_banner_error_map_
+      + notyf_error__backgroundColor$_: aliased by notyf_error__backgroundColor__
+      + notyf_error__backgroundColor_
+      + notyf_error__backgroundColor__set
+      + notyf_success__backgroundColor$_: aliased by notyf_success__backgroundColor__
+      + notyf_success__backgroundColor_
+      + notyf_success__backgroundColor__set
+
 ## 1.0.208
 
 ### Patch Changes
