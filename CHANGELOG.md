@@ -1,5 +1,29 @@
 # @menus/notyf
 
+## 2.0.0
+
+### Major Changes
+
+- active*notyf_o_a$*: - notyf_message:
+
+      replaced by top level notyf_message(ctx:Ctx, in_payload_arg:string|Partial<INotyfNotificationOptions>)
+
+### Minor Changes
+
+- - notyf*warn\_\_backgroundColor$*: aliased by notyf_warn**backgroundColor**
+
+  - notyf*warn\_\_backgroundColor*
+
+  - notyf_warn**backgroundColor**set
+
+- - active_notyf_o_a\_\_refresh
+- - notyf_message
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/nanostores@6.0.0
+
 ## 1.1.0
 
 ### Minor Changes

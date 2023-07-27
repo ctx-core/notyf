@@ -1,4 +1,5 @@
-import type { be_atom_triple_T, refresh_atom_T } from '@ctx-core/nanostores'
+import type { be_atom_triple_T, WritableAtom_ } from '@ctx-core/nanostores'
+import type { Ctx } from '@ctx-core/object'
 import type { INotyfNotificationOptions, INotyfPosition, NotyfNotification } from 'notyf'
 export const [
 	active_notyf_o_a$_,
@@ -8,9 +9,8 @@ export const [
 export {
 	active_notyf_o_a$_ as active_notyf_o_a__,
 }
-export interface active_notyf_o_a__T extends refresh_atom_T<active_payload_o_T[]> {
-	notyf_message(in_payload_arg:string|Partial<INotyfNotificationOptions>):Promise<NotyfNotification>
-}
+export declare function active_notyf_o_a__refresh(ctx:Ctx):void
+export type active_notyf_o_a__T = WritableAtom_<active_payload_o_T[]>
 export interface active_payload_o_T {
 	key:payload_key_T
 	payload:INotyfNotificationOptions

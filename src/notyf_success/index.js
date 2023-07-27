@@ -1,13 +1,13 @@
 import { val__be_atom_triple_ } from '@ctx-core/nanostores'
-import { active_notyf_o_a__ } from '../active_notyf_o_a__/index.js'
-import { notyf_options_ } from '../notyf_options_/index.js'
 import { assign } from '@ctx-core/object'
+import { notyf_message } from '../notyf_message/index.js'
+import { notyf_options_ } from '../notyf_options_/index.js'
 export function notyf_success(ctx, in_payload_arg) {
 	const notyf_options = assign(notyf_options_(in_payload_arg), {
 		type: 'success',
 		backgroundColor: notyf_success__backgroundColor_(ctx)
 	})
-	return active_notyf_o_a__(ctx).notyf_message(notyf_options)
+	return notyf_message(ctx, notyf_options)
 }
 export const [
 	notyf_success__backgroundColor$_,
