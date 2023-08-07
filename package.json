@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/notyf",
-	"version": "2.0.3",
+	"version": "2.0.4",
 	"type": "module",
 	"main": "./src/index.js",
 	"module": "./src/index.js",
@@ -16,7 +16,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/array": "^26.13.0",
-		"@ctx-core/dom": "^14.1.58",
+		"@ctx-core/dom": "^14.1.59",
 		"@ctx-core/fast-deep-equal": "1.1.22",
 		"@ctx-core/function": "^21.19.0",
 		"@ctx-core/nanostores": "^6.0.1",
