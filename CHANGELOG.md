@@ -1,5 +1,11 @@
 # @menus/notyf
 
+## 2.0.6
+
+### Patch Changes
+
+- @ctx-core/array: ^26.14.1 -> ^26.15.0
+
 ## 2.0.5
 
 ### Patch Changes
