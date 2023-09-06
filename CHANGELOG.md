@@ -1,5 +1,18 @@
 # @menus/notyf
 
+## 2.0.10
+
+### Patch Changes
+
+- version bump
+- Updated dependencies
+  - @ctx-core/array@26.15.2
+  - @ctx-core/dom@14.1.65
+  - @ctx-core/fast-deep-equal@1.1.23
+  - @ctx-core/function@21.20.1
+  - @ctx-core/nanostores@6.0.8
+  - @ctx-core/object@28.0.7
+
 ## 2.0.9
 
 ### Patch Changes
