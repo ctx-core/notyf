@@ -1,5 +1,20 @@
 # @menus/notyf
 
+## 2.0.22
+
+### Patch Changes
+
+- tsx: ^3.13.0 -> ^3.14.0
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/nanostores@6.0.13
+  - @ctx-core/array@26.15.5
+  - @ctx-core/dom@14.2.4
+  - @ctx-core/fast-deep-equal@1.1.24
+  - @ctx-core/function@21.20.2
+  - @ctx-core/object@28.2.1
+
 ## 2.0.21
 
 ### Patch Changes
