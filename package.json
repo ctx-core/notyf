@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/notyf",
-	"version": "2.0.35",
+	"version": "2.0.36",
 	"type": "module",
 	"main": "./src/index.js",
 	"module": "./src/index.js",
@@ -15,12 +15,12 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.7",
-		"@ctx-core/dom": "^15.0.3",
+		"@ctx-core/array": "^26.15.8",
+		"@ctx-core/dom": "^15.0.4",
 		"@ctx-core/fast-deep-equal": "1.1.24",
 		"@ctx-core/function": "^21.20.2",
-		"@ctx-core/nanostores": "^7.0.6",
-		"@ctx-core/object": "^29.0.0",
+		"@ctx-core/nanostores": "^7.0.7",
+		"@ctx-core/object": "^29.1.0",
 		"notyf": "^3.10.0"
 	},
 	"devDependencies": {
