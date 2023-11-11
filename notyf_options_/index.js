@@ -10,8 +10,8 @@ import { notyf_config } from '../notyf_config/index.js'
 export function notyf_options_(in_options) {
 	const options =
 		typeof in_options === 'string'
-		? { message: in_options }
-		: in_options
+			? { message: in_options }
+			: in_options
 	return clone(
 		/** @type {INotyfNotificationOptions} */DEFAULT_OPTIONS,
 		notyf_config,

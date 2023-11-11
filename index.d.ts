@@ -1,3 +1,4 @@
+export * from './_types/index.js'
 export * from './active_notyf_o_a/index.js'
 export * from './notyf/index.js'
 export * from './notyf_banner_error_map/index.js'

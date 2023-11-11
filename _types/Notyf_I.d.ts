@@ -1,6 +1,5 @@
-import type { DeepPartial, INotyfNotificationOptions, NotyfNotification } from 'notyf'
-import type { NotyfArray } from 'notyf/notyf.models'
-import type { INotyfOptions } from 'notyf/notyf.options'
+import type { DeepPartial, INotyfNotificationOptions, INotyfOptions, NotyfArray, NotyfNotification } from 'notyf'
+
 export interface Notyf_I {
 	notifications:NotyfArray<NotyfNotification>
 	options:INotyfOptions

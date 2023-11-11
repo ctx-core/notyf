@@ -9,7 +9,7 @@ export declare const [
 	notyf_error__backgroundColor$_,
 	notyf_error__backgroundColor_,
 	notyf_error__backgroundColor__set,
-]: be_atom_triple_T<WritableAtom_<string>>
+]:be_atom_triple_T<WritableAtom_<string>>
 export {
 	notyf_error__backgroundColor$_ as notyf_error__backgroundColor__,
 }

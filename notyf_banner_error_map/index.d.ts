@@ -4,7 +4,7 @@ import type { NotyfNotification } from 'notyf'
 export declare const [
 	notyf_banner_error_map$_,
 	notyf_banner_error_map_,
-]: be_computed_pair_T<notyf_banner_error_map__T>
+]:be_computed_pair_T<notyf_banner_error_map__T>
 export {
 	notyf_banner_error_map$_ as notyf_banner_error_map__,
 }

@@ -3,8 +3,8 @@ import { Notyf, NotyfNotification } from 'notyf'
 import { notyf_config } from '../notyf_config/index.js'
 export const notyf =
 	has_dom
-	? new Notyf(notyf_config)
-	: {
+		? new Notyf(notyf_config)
+		: {
 			error(payload) {
 				console.error(payload)
 				return new NotyfNotification({})
