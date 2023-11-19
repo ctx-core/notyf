@@ -1,7 +1,7 @@
 import { clone } from '@ctx-core/object'
 import { DEFAULT_OPTIONS } from 'notyf'
 import { notyf_config } from '../notyf_config/index.js'
-/** @typedef {import('notyf').INotyfNotificationOptions}INotyfNotificationOptions */
+/** @typedef {import('notyf').INotyfNotificationOptions} */
 /**
  * @param {string|Partial<INotyfNotificationOptions>}in_options
  * @returns {INotyfNotificationOptions}

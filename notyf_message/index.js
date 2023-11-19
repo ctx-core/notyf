@@ -7,9 +7,9 @@ import { active_notyf_o_a_, active_notyf_o_a__refresh } from '../active_notyf_o_
 import { notyf } from '../notyf/index.js'
 import { notyf_config } from '../notyf_config/index.js'
 import { notyf_options_ } from '../notyf_options_/index.js'
-/** @typedef {import('@ctx-core/object').Ctx}Ctx */
-/** @typedef {import('notyf').INotyfNotificationOptions}INotyfNotificationOptions */
-/** @typedef {import('notyf').NotyfNotification}NotyfNotification */
+/** @typedef {import('@ctx-core/object').Ctx} */
+/** @typedef {import('notyf').INotyfNotificationOptions} */
+/** @typedef {import('notyf').NotyfNotification} */
 /**
  * @param {Ctx}ctx
  * @param {string|Partial<INotyfNotificationOptions>}in_payload_arg

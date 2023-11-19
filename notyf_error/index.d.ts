@@ -1,4 +1,3 @@
-import type { WritableAtom_ } from '@ctx-core/nanostores'
 import { be_atom_triple_T } from '@ctx-core/nanostores'
 import type { Ctx } from '@ctx-core/object'
 import type { INotyfNotificationOptions, NotyfNotification } from 'notyf'
@@ -9,7 +8,7 @@ export declare const [
 	notyf_error__backgroundColor$_,
 	notyf_error__backgroundColor_,
 	notyf_error__backgroundColor__set,
-]:be_atom_triple_T<WritableAtom_<string>>
+]:be_atom_triple_T<string>
 export {
 	notyf_error__backgroundColor$_ as notyf_error__backgroundColor__,
 }
