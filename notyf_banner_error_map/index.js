@@ -2,10 +2,12 @@ import { be_computed_pair_, computed__set_a_ } from '@ctx-core/nanostores'
 import { NotyfEvent } from 'notyf'
 import { notyf } from '../notyf/index.js'
 import { notyf_error } from '../notyf_error/index.js'
+/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
+/** @typedef {import('./index.d.ts').notyf_banner_error_map__T} */
 export const [
 	notyf_banner_error_map$_,
 	notyf_banner_error_map_,
-] = be_computed_pair_(()=>{
+] = /** @type {be_computed_pair_T<notyf_banner_error_map__T>} */be_computed_pair_(()=>{
 	const notyf_banner_error_map = new Map()
 	const [_notyf_banner_error_map_, set] = computed__set_a_(notyf_banner_error_map)
 	set(notyf_banner_error_map)
