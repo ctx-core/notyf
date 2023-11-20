@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/notyf",
-	"version": "2.1.21",
+	"version": "2.1.22",
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -30,12 +30,12 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^27.0.19",
-		"@ctx-core/dom": "^15.1.19",
+		"@ctx-core/array": "^27.0.20",
+		"@ctx-core/dom": "^15.1.20",
 		"@ctx-core/fast-deep-equal": "1.2.5",
-		"@ctx-core/function": "^21.22.14",
-		"@ctx-core/object": "^31.1.0",
-		"@ctx-core/nanostores": "^9.0.3",
+		"@ctx-core/function": "^21.22.15",
+		"@ctx-core/object": "^31.1.1",
+		"@ctx-core/nanostores": "^9.0.4",
 		"notyf": "^3.10.0"
 	},
 	"devDependencies": {
