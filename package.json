@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/notyf",
-	"version": "2.1.36",
+	"version": "2.1.37",
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -35,7 +35,7 @@
 		"@ctx-core/fast-deep-equal": "1.2.8",
 		"@ctx-core/function": "^21.22.28",
 		"@ctx-core/object": "^31.1.14",
-		"@ctx-core/nanostores": "^9.0.18",
+		"@ctx-core/nanostores": "^9.0.19",
 		"notyf": "^3.10.0"
 	},
 	"devDependencies": {
