@@ -1,5 +1,4 @@
-import type { be_computed_pair_T, WritableAtom_ } from '@ctx-core/nanostores'
-import type { Ctx } from '@ctx-core/object'
+import type { be_computed_pair_T, Ctx, WritableAtom_ } from '@ctx-core/nanostores'
 import type { NotyfNotification } from 'notyf'
 export declare const [
 	notyf_banner_error_map$_,

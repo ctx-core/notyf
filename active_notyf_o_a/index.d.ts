@@ -1,5 +1,4 @@
-import type { be_atom_triple_T, WritableAtom_ } from '@ctx-core/nanostores'
-import type { Ctx } from '@ctx-core/object'
+import type { be_atom_triple_T, Ctx, WritableAtom_ } from '@ctx-core/nanostores'
 import type { INotyfNotificationOptions, INotyfPosition, NotyfNotification } from 'notyf'
 export const [
 	active_notyf_o_a$_,

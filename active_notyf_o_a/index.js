@@ -1,7 +1,6 @@
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { be_atom_triple_ } from '@ctx-core/nanostores'
-/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
-/** @typedef {import('@ctx-core/object').Ctx} */
-/** @typedef {import('./index.d.ts').active_notyf_o_a__T} */
 export const [
 	active_notyf_o_a$_,
 	active_notyf_o_a_,

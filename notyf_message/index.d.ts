@@ -1,4 +1,4 @@
-import type { Ctx } from '@ctx-core/object'
+import type { Ctx } from 'ctx-core/be'
 import type { INotyfNotificationOptions, NotyfNotification } from 'notyf'
 export declare function notyf_message(
 	ctx:Ctx,

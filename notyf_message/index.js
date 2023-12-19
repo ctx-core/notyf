@@ -1,13 +1,13 @@
-import { remove } from '@ctx-core/array'
-import { deep_equal } from '@ctx-core/fast-deep-equal'
-import { debounce } from '@ctx-core/function'
-import { pick } from '@ctx-core/object'
+/// <reference types="ctx-core" />
+import { remove } from 'ctx-core/array'
+import { deep_equal } from 'ctx-core/deep_equal'
+import { debounce } from 'ctx-core/function'
+import { pick } from 'ctx-core/object'
 import { DEFAULT_OPTIONS } from 'notyf'
 import { active_notyf_o_a_, active_notyf_o_a__refresh } from '../active_notyf_o_a/index.js'
 import { notyf } from '../notyf/index.js'
 import { notyf_config } from '../notyf_config/index.js'
 import { notyf_options_ } from '../notyf_options_/index.js'
-/** @typedef {import('@ctx-core/object').Ctx} */
 /** @typedef {import('notyf').INotyfNotificationOptions} */
 /** @typedef {import('notyf').NotyfNotification} */
 /**

@@ -1,9 +1,9 @@
+/// <reference types="ctx-core" />
+/// <reference types="./index.d.ts" />
 import { be_computed_pair_, computed__set_a_ } from '@ctx-core/nanostores'
 import { NotyfEvent } from 'notyf'
 import { notyf } from '../notyf/index.js'
 import { notyf_error } from '../notyf_error/index.js'
-/** @typedef {import('@ctx-core/object').be_atom_triple_T} */
-/** @typedef {import('./index.d.ts').notyf_banner_error_map__T} */
 export const [
 	notyf_banner_error_map$_,
 	notyf_banner_error_map_,
