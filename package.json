@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/notyf",
-	"version": "2.1.74",
+	"version": "2.1.75",
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -31,8 +31,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "^15.1.68",
-		"@ctx-core/nanostores": "^10.0.12",
-		"ctx-core": "^5.4.1",
+		"@ctx-core/nanostores": "^10.0.13",
+		"ctx-core": "^5.5.0",
 		"notyf": "^3.10.0"
 	},
 	"devDependencies": {
