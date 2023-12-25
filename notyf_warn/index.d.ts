@@ -1,11 +1,11 @@
-import type { be_atom_triple_T } from '@ctx-core/nanostores'
+import type { be_sig_triple_T } from 'ctx-core/rmemo'
 import type { Ctx } from 'ctx-core/be'
 import type { INotyfNotificationOptions, NotyfNotification } from 'notyf'
 export declare const [
 	notyf_warn__backgroundColor$_,
 	notyf_warn__backgroundColor_,
 	notyf_warn__backgroundColor__set,
-]:be_atom_triple_T<string>
+]:be_sig_triple_T<string>
 export {
 	notyf_warn__backgroundColor$_ as notyf_warn__backgroundColor__,
 }

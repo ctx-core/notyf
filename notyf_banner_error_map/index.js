@@ -1,18 +1,15 @@
 /// <reference types="ctx-core" />
 /// <reference types="./index.d.ts" />
-import { be_computed_pair_, computed__set_a_ } from '@ctx-core/nanostores'
+import { be_memo_pair_ } from 'ctx-core/rmemo'
 import { NotyfEvent } from 'notyf'
 import { notyf } from '../notyf/index.js'
 import { notyf_error } from '../notyf_error/index.js'
 export const [
 	notyf_banner_error_map$_,
 	notyf_banner_error_map_,
-] = /** @type {be_computed_pair_T<notyf_banner_error_map__T>} */be_computed_pair_(()=>{
-	const notyf_banner_error_map = new Map()
-	const [_notyf_banner_error_map_, set] = computed__set_a_(notyf_banner_error_map)
-	set(notyf_banner_error_map)
-	return _notyf_banner_error_map_
-})
+] = /** @type {be_memo_pair_T<notyf_banner_error_map__T>} */
+	be_memo_pair_(()=>
+		new Map())
 export {
 	notyf_banner_error_map$_ as notyf_banner_error_map__,
 }
