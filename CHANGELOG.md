@@ -1,5 +1,13 @@
 # @menus/notyf
 
+## 2.1.100
+
+### Patch Changes
+
+- ctx-core: ^5.18.7 -> ^5.18.8
+- Updated dependencies
+  - @ctx-core/dom@15.2.23
+
 ## 2.1.99
 
 ### Patch Changes
