@@ -32,7 +32,7 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "^15.3.1",
-		"ctx-core": "^5.27.0",
+		"ctx-core": "^5.27.1",
 		"notyf": "^3.10.0"
 	},
 	"devDependencies": {
