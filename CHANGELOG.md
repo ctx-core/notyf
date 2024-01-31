@@ -1,5 +1,14 @@
 # @menus/notyf
 
+## 2.1.137
+
+### Patch Changes
+
+- patch:
+
+      - ∋ @ctx-core/dom
+      optimize imports
+
 ## 2.1.136
 
 ### Patch Changes

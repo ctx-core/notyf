@@ -1,5 +1,4 @@
 import type { DeepPartial, INotyfNotificationOptions, INotyfOptions, NotyfArray, NotyfNotification } from 'notyf'
-
 export interface Notyf_I {
 	notifications:NotyfArray<NotyfNotification>
 	options:INotyfOptions

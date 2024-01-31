@@ -1,8 +1,8 @@
-import { has_dom } from '@ctx-core/dom'
+import { is_browser_ } from 'ctx-core/env'
 import { Notyf, NotyfNotification } from 'notyf'
 import { notyf_config } from '../notyf_config/index.js'
 export const notyf =
-	has_dom
+	is_browser_()
 		? new Notyf(notyf_config)
 		: {
 			error(payload) {
