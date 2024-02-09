@@ -1,4 +1,4 @@
-import type { be_sig_triple_T, Ctx, sig_T } from 'ctx-core/rmemo'
+import type { be_sig_triple_T, ctx_T, sig_T } from 'ctx-core/rmemo'
 import type { INotyfNotificationOptions, INotyfPosition, NotyfNotification } from 'notyf'
 export const [
 	active_notyf_o_a$_,
@@ -8,7 +8,7 @@ export const [
 export {
 	active_notyf_o_a$_ as active_notyf_o_a__,
 }
-export declare function active_notyf_o_a__refresh(ctx:Ctx):void
+export declare function active_notyf_o_a__refresh(ctx:ctx_T):void
 export type active_notyf_o_a__T = sig_T<active_payload_o_T[]>
 export interface active_payload_o_T {
 	key:payload_key_T

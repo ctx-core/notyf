@@ -12,7 +12,7 @@ export {
 	active_notyf_o_a$_ as active_notyf_o_a__,
 }
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  */
 export function active_notyf_o_a__refresh(ctx) {
 	active_notyf_o_a__set(ctx, active_notyf_o_a_(ctx)?.slice() || [])

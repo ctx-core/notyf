@@ -11,7 +11,7 @@ import { notyf_options_ } from '../notyf_options_/index.js'
 /** @typedef {import('notyf').INotyfNotificationOptions} */
 /** @typedef {import('notyf').NotyfNotification} */
 /**
- * @param {Ctx}ctx
+ * @param {ctx_T}ctx
  * @param {string|Partial<INotyfNotificationOptions>}in_payload_arg
  * @returns {NotyfNotification}
  */
