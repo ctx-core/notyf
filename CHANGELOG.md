@@ -1,5 +1,11 @@
 # @menus/notyf
 
+## 2.1.159
+
+### Patch Changes
+
+- ctx-core: ^6.4.6 -> ^6.5.0
+
 ## 2.1.158
 
 ### Patch Changes
