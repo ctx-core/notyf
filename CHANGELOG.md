@@ -1,5 +1,13 @@
 # @menus/notyf
 
+## 2.1.171
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 2.1.170
 
 ### Patch Changes
