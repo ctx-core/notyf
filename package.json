@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/notyf",
-	"version": "2.1.204",
+	"version": "2.1.205",
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -31,7 +31,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^7.2.16",
+		"ctx-core": "^7.2.17",
 		"notyf": "^3.10.0"
 	},
 	"devDependencies": {
