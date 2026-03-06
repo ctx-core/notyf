@@ -1,5 +1,13 @@
 # @menus/notyf
 
+## 2.1.222
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 2.1.221
 
 ### Patch Changes
